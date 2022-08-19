@@ -4,6 +4,7 @@ import AVTR1 from '../../assets/avatar1.jpg'
 import AVTR2 from '../../assets/avatar2.jpg'
 import AVTR3 from '../../assets/avatar3.jpg'
 import AVTR4 from '../../assets/avatar4.jpg'
+import AVTR5 from '../../assets/avatar5.png'
 
 // import Swiper core and required modules
 import { Navigation, Pagination } from 'swiper';
@@ -21,29 +22,34 @@ const data = [
   {
     avatar: AVTR1,
     name: 'Tina Snow',
-    review: 'Modi alias animi dolorem aliquam ea eum beatae maiores, consectetur praesentium quibusdam, commodi velit porro blanditiis consequatur qui molestiae. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores deserunt explicabo nostrum ducimus quasi?'
+    review: `[Product name] had a great [product advantage]. I was a bit worried about [objection], but it wasn’t a problem at all. I love using [product name] when I’m [best use scenario].`
   },
   {
     avatar: AVTR2,
     name: 'Shatta Wale',
-    review: 'Modi alias animi dolorem aliquam ea eum beatae maiores, consectetur praesentium quibusdam, commodi velit porro blanditiis consequatur qui molestiae. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores deserunt explicabo nostrum ducimus quasi?'
+    review: `[Business name] was [positive attribute]. The team helped me [problem the business solved]. I had a problem with [key challenge], but they took care of it right away.`
   },
   {
     avatar: AVTR3,
     name: 'Kwame Despite',
-    review: 'Modi alias animi dolorem aliquam ea eum beatae maiores, consectetur praesentium quibusdam, commodi velit porro blanditiis consequatur qui molestiae. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores deserunt explicabo nostrum ducimus quasi?'
+    review: `When we discovered [your company name], they were immediately [company strength]. We saw significant improvements right away and, after [time as a customer], we have seen [measurable benefit].`
   },
   {
     avatar: AVTR4,
     name: 'Nana Ama McBrown',
-    review: 'Modi alias animi dolorem aliquam ea eum beatae maiores, consectetur praesentium quibusdam, commodi velit porro blanditiis consequatur qui molestiae. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores deserunt explicabo nostrum ducimus quasi?'
+    review: `I just started using [product or service] and it has been [key benefit]. I feel [emotional response]. I would definitely say [recommendation or response to product/service]`
+  },
+  {
+    avatar: AVTR5,
+    name: 'Green Tie Guy',
+    review: `I visited [business name] and tried [product or service the customer used]. The experience was great, it [advantage enjoyed by the customer]. I’d highly recommend them to anyone.`
   },
 ]
 
 const Testimonials = () => {
   return (
     <section id='testimonials'>
-      <h5>Review from clients</h5>
+      <h5>Review from Clients</h5>
       <h2>Testimonials</h2>
 
       <Swiper className="container testimonials__container"
