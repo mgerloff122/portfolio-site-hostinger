@@ -13,11 +13,19 @@ import IMG10 from'../../assets/portfolio10.png'
 import IMG11 from'../../assets/portfolio11.png'
 import IMG12 from'../../assets/portfolio12.png'
 import IMG13 from'../../assets/portfolio13.png'
+import IMG14 from'../../assets/portfolio14.png'
 
 
 
 const data = [
   
+  {
+    id: 14,
+    image: IMG14,
+    title: 'Responsive Cloud Management Service with Tailwind',
+    github: 'https://github.com/mgerloff122/tech-brand',
+    demo: 'https://vawulens.vercel.app/'
+  },
   {
     id: 13,
     image: IMG13,
