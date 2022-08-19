@@ -12,13 +12,21 @@ import IMG9 from'../../assets/portfolio9.png'
 import IMG10 from'../../assets/portfolio10.png'
 import IMG11 from'../../assets/portfolio11.png'
 import IMG12 from'../../assets/portfolio12.png'
+import IMG13 from'../../assets/portfolio13.png'
 
 
 
 const data = [
   
   {
-    id: 11,
+    id: 13,
+    image: IMG13,
+    title: 'HooBank: Modern Banking ReImagined.',
+    github: 'https://github.com/mgerloff122/vawulens',
+    demo: 'https://vawulens.vercel.app/'
+  },
+  {
+    id: 12,
     image: IMG12,
     title: 'Join the Legends of the Fitness World: Vawulens',
     github: 'https://github.com/mgerloff122/vawulens',
