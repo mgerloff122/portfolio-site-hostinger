@@ -14,11 +14,18 @@ import IMG11 from'../../assets/portfolio11.png'
 import IMG12 from'../../assets/portfolio12.png'
 import IMG13 from'../../assets/portfolio13.png'
 import IMG14 from'../../assets/portfolio14.png'
-
+import IMG15 from'../../assets/portfolio15.png'
 
 
 const data = [
   
+  {
+    id: 15,
+    image: IMG15,
+    title: "System Proposal- Jasmine's Online Gallery",
+    github: 'https://github.com/mgerloff122/Jasmine-s-Online-Gallery',
+    demo: 'https://jasmine-s-online-gallery.vercel.app/'
+  },
   {
     id: 14,
     image: IMG14,
